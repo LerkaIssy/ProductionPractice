@@ -349,11 +349,11 @@
         <mxCell id="H0oHp4eEpE__fPiEEaxZ-132" value="У каждого студента может быть много ачивок&lt;div&gt;у одной ачивки много студентов&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1370" y="370" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H0oHp4eEpE__fPiEEaxZ-134" value="exp - накопленный опыт конвертируется в уровни? рейтинг?&lt;div&gt;возможно стоит хранить не в самом справочнике а в регисте?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-725" y="440" width="370" height="40" as="geometry" />
+        <mxCell id="H0oHp4eEpE__fPiEEaxZ-134" value="exp - накопленный опыт конвертируется в уровни? рейтинг?&lt;div&gt;возможно стоит хранить не в самом справочнике а в регистре?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UPD: на курсах это был регистр накопления &quot;остаток рейтинга&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="435" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H0oHp4eEpE__fPiEEaxZ-181" value="у каждого студента есть собственный рейтинг&amp;nbsp;&lt;div&gt;внутри группы и внутри учебного заведения&lt;/div&gt;&lt;div&gt;нужно проверить курс или выгрузку с курсов,&lt;/div&gt;&lt;div&gt;где мы хранили в справочниках накопления&amp;nbsp;&lt;/div&gt;&lt;div&gt;игроков&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="480" width="280" height="90" as="geometry" />
+          <mxGeometry x="-605" y="660" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="H0oHp4eEpE__fPiEEaxZ-182" value="Рейтинг группы - среднее арифметическое&lt;div&gt;от количества студентов и суммы их личных&amp;nbsp;&lt;/div&gt;&lt;div&gt;рейтингов&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="80" width="280" height="60" as="geometry" />
@@ -363,6 +363,9 @@
         </mxCell>
         <mxCell id="H0oHp4eEpE__fPiEEaxZ-184" value="Табличная часть справочника&lt;div&gt;группы&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-629" y="60" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0oHp4eEpE__fPiEEaxZ-185" value="Необходимо реализовать некую систему &quot;дебаффов&quot;&lt;div&gt;то есть заа дисциплинарные провинности рейтинг студента&amp;nbsp;&lt;/div&gt;&lt;div&gt;можно понизить&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="640" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
