@@ -39,11 +39,14 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПокупкаКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ПокупкаРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">ПокупкаПриИзменении</Event>
+			</Events>
 		</InputField>
-		<LabelField name="ПокупкаСтоимость" id="16">
-			<DataPath>Объект.Покупка.Стоимость</DataPath>
-			<ContextMenu name="ПокупкаСтоимостьКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ПокупкаСтоимостьРасширеннаяПодсказка" id="18"/>
+		<LabelField name="Сумма" id="16">
+			<DataPath>Объект.Сумма</DataPath>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="18"/>
 		</LabelField>
 	</ChildItems>
 	<Attributes>
