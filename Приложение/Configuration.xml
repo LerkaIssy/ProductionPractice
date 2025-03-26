@@ -252,7 +252,9 @@
 			<Catalog>Магазин</Catalog>
 			<Document>ПокупкаЗаБонусы</Document>
 			<Document>СтартИгры</Document>
+			<Document>НачислениеРейтинга</Document>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
+			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

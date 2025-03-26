@@ -6,6 +6,10 @@
 			<Metadata name="AccumulationRegister.ОстаткиБонусов.Dimension.Студент" id="929225ee-f8e7-49fe-b5e0-65094d51a923"/>
 		</Metadata>
 		<Metadata name="AccumulationRegister.ОстаткиБонусов.ManagerModule" id="a257c5e3-8a9c-4879-a7cd-ee0f7c20eb2c.2" configVersion="e5474846e266804a80ea56e3719ebc5c00000000"/>
+		<Metadata name="AccumulationRegister.ОстаткиРейтинга" id="bb83fda4-9446-4e08-aa62-73ff44864dc6" configVersion="79fc500aa783854b9d60733901a3886800000000">
+			<Metadata name="AccumulationRegister.ОстаткиРейтинга.Resource.Рейтинг" id="345154f5-9b51-43e8-b759-e8adc91896f0"/>
+			<Metadata name="AccumulationRegister.ОстаткиРейтинга.Dimension.Студент" id="a56304a6-6f64-4563-ab4a-a853fea63b83"/>
+		</Metadata>
 		<Metadata name="Catalog.Группы" id="6e4b8431-586d-4e60-bc88-c57a883a282e" configVersion="8b64098229c7dc4cb18b54c8a4290ffe00000000">
 			<Metadata name="Catalog.Группы.Attribute.ДатаНабора" id="3cd0d79b-8692-4350-9cfd-72c25192d2e0"/>
 		</Metadata>
@@ -46,9 +50,15 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="c0fd1f3857bcad409dbddc71d711f2cf00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="14d8487add28f74692dd730e51e9966600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="3957f6a78b4e574dbe5cab280f91e13c00000000"/>
-		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="28945b27d04ef3459c47693f8b8c123a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="40de33312c9040418c5813c00abaed4400000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="81e5bcb33f3ec94fa6785c710114fd0100000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
+		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
+			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>
+			<Metadata name="Document.НачислениеРейтинга.Attribute.Рейтинг" id="21b67fe8-dfe2-4c30-9a3f-0b6fa0f56e67"/>
+			<Metadata name="Document.НачислениеРейтинга.Attribute.Студент" id="704c8e7f-14d6-425a-b9ed-946334d6ed47"/>
+		</Metadata>
+		<Metadata name="Document.НачислениеРейтинга.ObjectModule" id="64426f30-ae49-40e0-986a-1c2ea3158862.0" configVersion="38337b1148c5f74fbd942252163817cc00000000"/>
 		<Metadata name="Document.ПокупкаЗаБонусы" id="4ecce9d9-d90c-4d12-863f-fb80bb17ab41" configVersion="7cbbe339a3e60241b64c608c0a92144a00000000">
 			<Metadata name="Document.ПокупкаЗаБонусы.Attribute.Студент" id="54b8eb71-b9b5-4c09-b72d-db0086785e6a"/>
 			<Metadata name="Document.ПокупкаЗаБонусы.Attribute.Группа" id="701a6d53-abd8-49f3-b598-54384542158f"/>
