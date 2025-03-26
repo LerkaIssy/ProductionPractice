@@ -45,15 +45,21 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="c0fd1f3857bcad409dbddc71d711f2cf00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="14d8487add28f74692dd730e51e9966600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="27a000ddc821914aad76e59468f6262200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="3cb12e2a6f3f3f47a07a8bdbb71aedb400000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
-		<Metadata name="Document.ПокупкаЗаБонусы" id="4ecce9d9-d90c-4d12-863f-fb80bb17ab41" configVersion="6cd5553628abc140b56b7b13ac7b905700000000">
+		<Metadata name="Document.ПокупкаЗаБонусы" id="4ecce9d9-d90c-4d12-863f-fb80bb17ab41" configVersion="c48b790e913f4b468b55f5689be11cba00000000">
 			<Metadata name="Document.ПокупкаЗаБонусы.Attribute.Студент" id="54b8eb71-b9b5-4c09-b72d-db0086785e6a"/>
 			<Metadata name="Document.ПокупкаЗаБонусы.Attribute.Группа" id="701a6d53-abd8-49f3-b598-54384542158f"/>
 			<Metadata name="Document.ПокупкаЗаБонусы.Attribute.Покупка" id="72a78d6d-43b1-4c63-9dac-4f60d52c9349"/>
 		</Metadata>
 		<Metadata name="Document.ПокупкаЗаБонусы.Form.ФормаДокумента" id="80bdb7a1-35d7-4592-8d6e-15c1104da9d2" configVersion="108471e3f35b434db689e44f45ae811500000000"/>
 		<Metadata name="Document.ПокупкаЗаБонусы.Form.ФормаДокумента.Form" id="80bdb7a1-35d7-4592-8d6e-15c1104da9d2.0" configVersion="55ea42e51f179445bc9bd70169123e1c00000000"/>
+		<Metadata name="Document.ПокупкаЗаБонусы.ObjectModule" id="4ecce9d9-d90c-4d12-863f-fb80bb17ab41.0" configVersion="bf8d320510953a49863b5bf572fb706400000000"/>
+		<Metadata name="Document.СтартИгры" id="7acf52d8-d717-4622-b25b-ef2cb92b3ea4" configVersion="b6b2231c1c0c59448953cbc0958194b100000000">
+			<Metadata name="Document.СтартИгры.Attribute.НачальныйКапитал" id="3e060c4a-1736-48ed-bb61-5d66c016c6e6"/>
+			<Metadata name="Document.СтартИгры.Attribute.Студент" id="bd777cb8-4df9-4fb1-9234-8dcdaa9a37bb"/>
+		</Metadata>
+		<Metadata name="Document.СтартИгры.ObjectModule" id="7acf52d8-d717-4622-b25b-ef2cb92b3ea4.0" configVersion="8335ae010f7ac74ba74769717ac4fb4000000000"/>
 		<Metadata name="Language.Русский" id="fcbb4958-f5b2-495e-97b0-d381b10a2094" configVersion="9be714d1c2575d4bbe00a56cc486f92600000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

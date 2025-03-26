@@ -251,6 +251,7 @@
 			<Catalog>Достижения</Catalog>
 			<Catalog>Магазин</Catalog>
 			<Document>ПокупкаЗаБонусы</Document>
+			<Document>СтартИгры</Document>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
