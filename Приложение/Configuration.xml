@@ -253,6 +253,7 @@
 			<Document>ПокупкаЗаБонусы</Document>
 			<Document>СтартИгры</Document>
 			<Document>НачислениеРейтинга</Document>
+			<Report>РейтингСтудентов</Report>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>

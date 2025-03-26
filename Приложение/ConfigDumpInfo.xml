@@ -50,7 +50,7 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="c0fd1f3857bcad409dbddc71d711f2cf00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="14d8487add28f74692dd730e51e9966600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="40de33312c9040418c5813c00abaed4400000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="dfe2e1128e9e6b44ab11241d5a35ea8f00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="81e5bcb33f3ec94fa6785c710114fd0100000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
@@ -74,5 +74,8 @@
 		</Metadata>
 		<Metadata name="Document.СтартИгры.ObjectModule" id="7acf52d8-d717-4622-b25b-ef2cb92b3ea4.0" configVersion="8335ae010f7ac74ba74769717ac4fb4000000000"/>
 		<Metadata name="Language.Русский" id="fcbb4958-f5b2-495e-97b0-d381b10a2094" configVersion="9be714d1c2575d4bbe00a56cc486f92600000000"/>
+		<Metadata name="Report.РейтингСтудентов" id="1f95f07e-4c17-49af-97df-8b22db57f384" configVersion="b596600595694f48be62b9e2a5786b9c00000000"/>
+		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных" id="08d7a99d-d2f3-4f23-b30d-5b25de779503" configVersion="e0e04b9fb2f98b48b11f0ab0e7ca13b400000000"/>
+		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="08d7a99d-d2f3-4f23-b30d-5b25de779503.0" configVersion="72d20f97e8d6cb429c322836b849169800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
