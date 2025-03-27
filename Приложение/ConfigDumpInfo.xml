@@ -50,7 +50,7 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="c0fd1f3857bcad409dbddc71d711f2cf00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="14d8487add28f74692dd730e51e9966600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="dfe2e1128e9e6b44ab11241d5a35ea8f00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="f2e633de59eaa24385a423ab68c7ee1100000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="81e5bcb33f3ec94fa6785c710114fd0100000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
@@ -68,14 +68,26 @@
 		<Metadata name="Document.ПокупкаЗаБонусы.Form.ФормаДокумента" id="80bdb7a1-35d7-4592-8d6e-15c1104da9d2" configVersion="d0dc1676dd61584a93ebb342c3bcdbbf00000000"/>
 		<Metadata name="Document.ПокупкаЗаБонусы.Form.ФормаДокумента.Form" id="80bdb7a1-35d7-4592-8d6e-15c1104da9d2.0" configVersion="e8f0235b359bbb40970f975d70a2989500000000"/>
 		<Metadata name="Document.ПокупкаЗаБонусы.ObjectModule" id="4ecce9d9-d90c-4d12-863f-fb80bb17ab41.0" configVersion="c076da3797205a4c9310f79456b9447600000000"/>
+		<Metadata name="Document.СписаниеРейтинга" id="0973e367-a704-404b-9588-f97cf283d2d4" configVersion="24f6056599074742ada270c6d5424dd800000000">
+			<Metadata name="Document.СписаниеРейтинга.Attribute.Рейтинг" id="1dedb604-253d-4f00-8d31-0db7be4fe122"/>
+			<Metadata name="Document.СписаниеРейтинга.Attribute.Студент" id="5a93607b-1c48-4d18-9e84-2b34810d87c1"/>
+			<Metadata name="Document.СписаниеРейтинга.Attribute.Группа" id="5b87b7da-4bcd-4883-88e4-d676894aef40"/>
+		</Metadata>
+		<Metadata name="Document.СписаниеРейтинга.ObjectModule" id="0973e367-a704-404b-9588-f97cf283d2d4.0" configVersion="da828f7b5adeb34fad02fe8911537f7000000000"/>
 		<Metadata name="Document.СтартИгры" id="7acf52d8-d717-4622-b25b-ef2cb92b3ea4" configVersion="01c2da2e89a924418f7851f36bcc20a000000000">
 			<Metadata name="Document.СтартИгры.Attribute.НачальныйКапитал" id="3e060c4a-1736-48ed-bb61-5d66c016c6e6"/>
 			<Metadata name="Document.СтартИгры.Attribute.Студент" id="bd777cb8-4df9-4fb1-9234-8dcdaa9a37bb"/>
 		</Metadata>
 		<Metadata name="Document.СтартИгры.ObjectModule" id="7acf52d8-d717-4622-b25b-ef2cb92b3ea4.0" configVersion="8335ae010f7ac74ba74769717ac4fb4000000000"/>
 		<Metadata name="Language.Русский" id="fcbb4958-f5b2-495e-97b0-d381b10a2094" configVersion="9be714d1c2575d4bbe00a56cc486f92600000000"/>
-		<Metadata name="Report.РейтингСтудентов" id="1f95f07e-4c17-49af-97df-8b22db57f384" configVersion="b596600595694f48be62b9e2a5786b9c00000000"/>
-		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных" id="08d7a99d-d2f3-4f23-b30d-5b25de779503" configVersion="e0e04b9fb2f98b48b11f0ab0e7ca13b400000000"/>
-		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="08d7a99d-d2f3-4f23-b30d-5b25de779503.0" configVersion="72d20f97e8d6cb429c322836b849169800000000"/>
+		<Metadata name="Report.РейтингСтудентов" id="42355d2b-dbc2-443c-a6db-6a13e29c5319" configVersion="ffb7e6659a7bde44bb15d1577bf3fdef00000000"/>
+		<Metadata name="Report.РейтингСтудентов.Help" id="42355d2b-dbc2-443c-a6db-6a13e29c5319.1" configVersion="0af8008994a9e54581f853b4e637ea2000000000"/>
+		<Metadata name="Report.РейтингСтудентов.ManagerModule" id="42355d2b-dbc2-443c-a6db-6a13e29c5319.2" configVersion="54d1ee3bba8b6c4281e7c5fd1023968500000000"/>
+		<Metadata name="Report.РейтингСтудентов.ObjectModule" id="42355d2b-dbc2-443c-a6db-6a13e29c5319.0" configVersion="3d6cd3bd5f6d8a4c9d20bd7c43ac007700000000"/>
+		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных" id="b7d07070-14e2-44a1-85ef-54eff5141ad9" configVersion="9f77f255ff84474492e0e6c0bb8ff69200000000"/>
+		<Metadata name="Report.РейтингСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b7d07070-14e2-44a1-85ef-54eff5141ad9.0" configVersion="9419472919ece04787d0abb29c32a10e00000000"/>
+		<Metadata name="Report.РейтингСтудентовОбщий" id="1f95f07e-4c17-49af-97df-8b22db57f384" configVersion="9419cae932587a4ba4de85f8e921581f00000000"/>
+		<Metadata name="Report.РейтингСтудентовОбщий.Template.ОсновнаяСхемаКомпоновкиДанных" id="08d7a99d-d2f3-4f23-b30d-5b25de779503" configVersion="b919c0b3ddf0c047a8a639142ed6895200000000"/>
+		<Metadata name="Report.РейтингСтудентовОбщий.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="08d7a99d-d2f3-4f23-b30d-5b25de779503.0" configVersion="b3b88533a096814382d661b6da7e323000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
