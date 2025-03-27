@@ -22,13 +22,12 @@
 		<Metadata name="Catalog.Достижения" id="ee815bd9-0e90-42a7-b48f-23ce59fecf9a" configVersion="cb35e06465db0d429a55290066dd87d500000000">
 			<Metadata name="Catalog.Достижения.Attribute.Условие" id="4d097cbe-b07f-42db-acfc-ff6f33c0d042"/>
 			<Metadata name="Catalog.Достижения.Attribute.Стоимость" id="9019ccf8-aee2-41e6-9a32-36f109d95f8c"/>
+			<Metadata name="Catalog.Достижения.Attribute.ПрограммнаяЛогика" id="d8a8f2cf-c720-4816-ae00-b51e31a47d44"/>
 		</Metadata>
-		<Metadata name="Catalog.Достижения.Form.ФормаВыбора" id="549bca95-dc46-44fc-8210-7eb3b310d2a3" configVersion="09c69f829f4bb441aa992391951187c500000000"/>
-		<Metadata name="Catalog.Достижения.Form.ФормаВыбора.Form" id="549bca95-dc46-44fc-8210-7eb3b310d2a3.0" configVersion="332231cbc9f7ed4fb241dbde55f2fcc200000000"/>
-		<Metadata name="Catalog.Достижения.Form.ФормаСписка" id="0ad2debf-aeb0-4d9a-b2ff-9ae70216bc3a" configVersion="6d15676ff09f6a4a8b06d821855aecc500000000"/>
-		<Metadata name="Catalog.Достижения.Form.ФормаСписка.Form" id="0ad2debf-aeb0-4d9a-b2ff-9ae70216bc3a.0" configVersion="9f529a3bd7d2b34792772ac0e81a136700000000"/>
-		<Metadata name="Catalog.Достижения.Form.ФормаЭлемента" id="82372540-1c1e-4f4e-87c8-45cb741b8c7e" configVersion="233d055705d95b48a3e18f7febc2cfc900000000"/>
-		<Metadata name="Catalog.Достижения.Form.ФормаЭлемента.Form" id="82372540-1c1e-4f4e-87c8-45cb741b8c7e.0" configVersion="2f33cde3539e5a4f889b758fba08037f00000000"/>
+		<Metadata name="Catalog.Достижения.Form.ФормаСписка" id="c0996efb-baa6-4804-9f24-87132b81ac3a" configVersion="94bc60ce3939f845b5c13cd4d6cbba8900000000"/>
+		<Metadata name="Catalog.Достижения.Form.ФормаСписка.Form" id="c0996efb-baa6-4804-9f24-87132b81ac3a.0" configVersion="00f7bdbe422d844fb05bbf674474680100000000"/>
+		<Metadata name="Catalog.Достижения.Form.ФормаЭлемента" id="623cac94-f5f9-4a3f-bd58-6ad1eb035529" configVersion="feefeb78d2e3fb4dbce8e059badbfab200000000"/>
+		<Metadata name="Catalog.Достижения.Form.ФормаЭлемента.Form" id="623cac94-f5f9-4a3f-bd58-6ad1eb035529.0" configVersion="ad609c9d32f0c949bbefbcdf8b0b3fb900000000"/>
 		<Metadata name="Catalog.Магазин" id="9d3c0e6f-35ee-447f-bdd1-c2a47381d5a8" configVersion="f5ed521aba41c24fa45555935da23c9a00000000">
 			<Metadata name="Catalog.Магазин.Attribute.Стоимость" id="b0aa8b2b-f90b-4d09-91c6-870173767350"/>
 		</Metadata>
@@ -50,8 +49,8 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="c0fd1f3857bcad409dbddc71d711f2cf00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="14d8487add28f74692dd730e51e9966600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="f2e633de59eaa24385a423ab68c7ee1100000000"/>
-		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="81e5bcb33f3ec94fa6785c710114fd0100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="db315ca126d0984caa12fe41c3d7675300000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="982799aa432e894b84098a44f413d31700000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>

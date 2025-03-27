@@ -256,6 +256,7 @@
 			<Document>СписаниеРейтинга</Document>
 			<Report>РейтингСтудентовОбщий</Report>
 			<Report>РейтингСтудентов</Report>
+			<InformationRegister>ПолученныеДостижения</InformationRegister>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>
