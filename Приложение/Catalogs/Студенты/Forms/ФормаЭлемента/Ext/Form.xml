@@ -137,6 +137,9 @@
 				</LabelField>
 				<PictureField name="СписокДостиженийКартинка" id="40">
 					<DataPath>СписокДостижений.Картинка</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<PictureSize>Proportionally</PictureSize>
 					<ContextMenu name="СписокДостиженийКартинкаКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="СписокДостиженийКартинкаРасширеннаяПодсказка" id="42"/>
 				</PictureField>
