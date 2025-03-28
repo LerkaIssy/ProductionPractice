@@ -245,6 +245,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
+			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
 			<Constant>СтартовыйРейтинг</Constant>
 			<Catalog>Студенты</Catalog>
 			<Catalog>Группы</Catalog>
@@ -257,6 +259,7 @@
 			<Report>РейтингСтудентовОбщий</Report>
 			<Report>РейтингСтудентов</Report>
 			<InformationRegister>ПолученныеДостижения</InformationRegister>
+			<InformationRegister>Файлы</InformationRegister>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>

@@ -47,9 +47,13 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаВыбора.Form" id="5d2616b6-4b09-4ece-be3a-8b64d33a6587.0" configVersion="dab2dd3efe101c4baa443059b0cc79d700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка" id="e0773234-0a0a-4f83-8844-b602c2a8bdae" configVersion="516d9797ee6bf544ba162283d684762d00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
-		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="5623398f5803614b82503d47a85c0a5f00000000"/>
+		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="ac4f1316086aa54180578847bb1aba0800000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="1179d67b5bdfa046a8dd325d5ebc176500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="051a38ca0b832c409bb006ab10344e3900000000"/>
+		<Metadata name="CommonModule.ОбщийКлиентскийМодуль" id="384bda15-f5ff-4937-97f4-1d27261b3ddd" configVersion="acbe19289ebdf24ea60ea37a6a36d58200000000"/>
+		<Metadata name="CommonModule.ОбщийКлиентскийМодуль.Module" id="384bda15-f5ff-4937-97f4-1d27261b3ddd.0" configVersion="ee4b62ef89ee1d45bcd79176db19624200000000"/>
+		<Metadata name="CommonModule.ОбщийСерверныйМодуль" id="43ae913d-3638-460b-ba76-80bedd8fa780" configVersion="07085f4c5f445f498ab0ed2cc91fb66300000000"/>
+		<Metadata name="CommonModule.ОбщийСерверныйМодуль.Module" id="43ae913d-3638-460b-ba76-80bedd8fa780.0" configVersion="97d8a515df85aa4c8df99b6fd028defc00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="8dae11f3c9c3654ea4d2392c9787539d00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="982799aa432e894b84098a44f413d31700000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
@@ -83,6 +87,13 @@
 			<Metadata name="InformationRegister.ПолученныеДостижения.Dimension.Достижение" id="85e80881-31f6-4005-ad5e-25ac353f39e7"/>
 			<Metadata name="InformationRegister.ПолученныеДостижения.Attribute.АдресВХ" id="ae587172-3911-4ede-af54-e0e61d936081"/>
 		</Metadata>
+		<Metadata name="InformationRegister.Файлы" id="cfb04a53-e261-4150-98c8-b3c5ef0837ff" configVersion="775fa3e9406381428fca4f273ec2dd3500000000">
+			<Metadata name="InformationRegister.Файлы.Resource.ДанныеФайла" id="052ef587-53d5-4a21-941f-5ae31d9bfc76"/>
+			<Metadata name="InformationRegister.Файлы.Attribute.РасширениеФайла" id="871cc0f6-51a2-4ac4-93dd-f92b11a26d90"/>
+			<Metadata name="InformationRegister.Файлы.Dimension.Объект" id="d0c74d64-0427-44cb-95ae-dda34da36104"/>
+			<Metadata name="InformationRegister.Файлы.Attribute.РазмерФайла" id="ede571d8-f74e-4044-9181-db7f41ebefc3"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Файлы.ManagerModule" id="cfb04a53-e261-4150-98c8-b3c5ef0837ff.2" configVersion="c856209dfb05fa46b7aa31901a13932900000000"/>
 		<Metadata name="Language.Русский" id="fcbb4958-f5b2-495e-97b0-d381b10a2094" configVersion="9be714d1c2575d4bbe00a56cc486f92600000000"/>
 		<Metadata name="Report.РейтингСтудентов" id="42355d2b-dbc2-443c-a6db-6a13e29c5319" configVersion="ffb7e6659a7bde44bb15d1577bf3fdef00000000"/>
 		<Metadata name="Report.РейтингСтудентов.Help" id="42355d2b-dbc2-443c-a6db-6a13e29c5319.1" configVersion="0af8008994a9e54581f853b4e637ea2000000000"/>
