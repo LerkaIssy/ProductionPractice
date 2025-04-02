@@ -4,6 +4,7 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -77,13 +78,7 @@
 			<ContextMenu name="ВладелецКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="21"/>
 		</InputField>
-		<Button name="Достижения" id="22">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.Достижения</CommandName>
-			<ExtendedTooltip name="ДостиженияРасширеннаяПодсказка" id="23"/>
-		</Button>
-		<Table name="СписокДостижений" id="24">
-			<CommandBarLocation>None</CommandBarLocation>
+		<Table name="СписокДостижений" id="22">
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>СписокДостижений</DataPath>
@@ -102,47 +97,45 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-			<ContextMenu name="СписокДостиженийКонтекстноеМеню" id="25"/>
-			<AutoCommandBar name="СписокДостиженийКоманднаяПанель" id="26"/>
-			<ExtendedTooltip name="СписокДостиженийРасширеннаяПодсказка" id="27"/>
-			<SearchStringAddition name="СписокДостиженийСтрокаПоиска" id="28">
+			<ContextMenu name="СписокДостиженийКонтекстноеМеню" id="23"/>
+			<AutoCommandBar name="СписокДостиженийКоманднаяПанель" id="24"/>
+			<ExtendedTooltip name="СписокДостиженийРасширеннаяПодсказка" id="25"/>
+			<SearchStringAddition name="СписокДостиженийСтрокаПоиска" id="26">
 				<AdditionSource>
 					<Item>СписокДостижений</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокДостиженийСтрокаПоискаКонтекстноеМеню" id="29"/>
-				<ExtendedTooltip name="СписокДостиженийСтрокаПоискаРасширеннаяПодсказка" id="30"/>
+				<ContextMenu name="СписокДостиженийСтрокаПоискаКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="СписокДостиженийСтрокаПоискаРасширеннаяПодсказка" id="28"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СписокДостиженийСостояниеПросмотра" id="31">
+			<ViewStatusAddition name="СписокДостиженийСостояниеПросмотра" id="29">
 				<AdditionSource>
 					<Item>СписокДостижений</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокДостиженийСостояниеПросмотраКонтекстноеМеню" id="32"/>
-				<ExtendedTooltip name="СписокДостиженийСостояниеПросмотраРасширеннаяПодсказка" id="33"/>
+				<ContextMenu name="СписокДостиженийСостояниеПросмотраКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="СписокДостиженийСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СписокДостиженийУправлениеПоиском" id="34">
+			<SearchControlAddition name="СписокДостиженийУправлениеПоиском" id="32">
 				<AdditionSource>
 					<Item>СписокДостижений</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокДостиженийУправлениеПоискомКонтекстноеМеню" id="35"/>
-				<ExtendedTooltip name="СписокДостиженийУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+				<ContextMenu name="СписокДостиженийУправлениеПоискомКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="СписокДостиженийУправлениеПоискомРасширеннаяПодсказка" id="34"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="СписокДостиженийДостижение" id="37">
-					<DataPath>СписокДостижений.Достижение</DataPath>
-					<ContextMenu name="СписокДостиженийДостижениеКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="СписокДостиженийДостижениеРасширеннаяПодсказка" id="39"/>
-				</LabelField>
-				<PictureField name="СписокДостиженийКартинка" id="40">
+				<PictureField name="СписокДостиженийКартинка" id="38">
 					<DataPath>СписокДостижений.Картинка</DataPath>
-					<HorizontalStretch>false</HorizontalStretch>
-					<VerticalStretch>false</VerticalStretch>
 					<PictureSize>Proportionally</PictureSize>
-					<ContextMenu name="СписокДостиженийКартинкаКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="СписокДостиженийКартинкаРасширеннаяПодсказка" id="42"/>
+					<ContextMenu name="СписокДостиженийКартинкаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СписокДостиженийКартинкаРасширеннаяПодсказка" id="40"/>
 				</PictureField>
+				<LabelField name="СписокДостиженийДостижение" id="35">
+					<DataPath>СписокДостижений.Достижение</DataPath>
+					<ContextMenu name="СписокДостиженийДостижениеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокДостиженийДостижениеРасширеннаяПодсказка" id="37"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -153,6 +146,52 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="РазмерФайла" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасширениеФайла" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресКартинкиВХ" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес картинки ВХ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 		<Attribute name="СписокДостижений" id="2">
 			<Title>
@@ -168,16 +207,12 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	ПолученныеДостижения.Достижение КАК Достижение,
-	ПолученныеДостижения.АдресВХ КАК Картинка
+	ПолученныеДостижения.АдресВХ КАК Картинка,
+	ПолученныеДостижения.Достижение КАК Достижение
 ИЗ
 	РегистрСведений.ПолученныеДостижения КАК ПолученныеДостижения
 ГДЕ
-	ПолученныеДостижения.Студент = &amp;ТекущийСтудент</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Достижение</dcssch:dataPath>
-					<dcssch:field>Достижение</dcssch:field>
-				</Field>
+	ПолученныеДостижения.Студент = &amp;Студент</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Картинка</dcssch:dataPath>
 					<dcssch:field>Картинка</dcssch:field>
@@ -189,6 +224,10 @@
 					</dcssch:title>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Достижение</dcssch:dataPath>
+					<dcssch:field>Достижение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>АдресВХ</dcssch:dataPath>
 					<dcssch:field>АдресВХ</dcssch:field>
 				</Field>
@@ -197,11 +236,11 @@
 					<dcssch:field>Студент</dcssch:field>
 				</Field>
 				<Parameter>
-					<dcssch:name>ТекущийСтудент</dcssch:name>
+					<dcssch:name>Студент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Текущий студент</v8:content>
+							<v8:content>Студент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>

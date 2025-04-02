@@ -37,7 +37,7 @@
 		<Metadata name="Catalog.Магазин.Form.ФормаСписка.Form" id="5be779d5-e297-4c01-865e-9b15a158073d.0" configVersion="8c49c1395ec92247b38661608d1265e900000000"/>
 		<Metadata name="Catalog.Магазин.Form.ФормаЭлемента" id="cf74cc91-2142-4f62-bde9-2bcf73abc92a" configVersion="6226208e88ac0d46aaf2285ca67ff0ba00000000"/>
 		<Metadata name="Catalog.Магазин.Form.ФормаЭлемента.Form" id="cf74cc91-2142-4f62-bde9-2bcf73abc92a.0" configVersion="cc135df1e15ff042a4e0a4765b63a2e000000000"/>
-		<Metadata name="Catalog.Студенты" id="1d3a4995-04c6-49d7-94e3-9e2df632a6ca" configVersion="584afaaa9edeb5498d5b35c2a1b51f0900000000">
+		<Metadata name="Catalog.Студенты" id="1d3a4995-04c6-49d7-94e3-9e2df632a6ca" configVersion="e698c9527db20244bc0b8571e60d219700000000">
 			<Metadata name="Catalog.Студенты.Attribute.Отчество" id="41e26515-7b9c-4981-934b-a2808e205ebd"/>
 			<Metadata name="Catalog.Студенты.Attribute.Фамилия" id="4b05d631-c84a-4a96-903e-a886ef9bbfd8"/>
 			<Metadata name="Catalog.Студенты.Attribute.Имя" id="76f34669-907f-447f-9713-66785d834acc"/>
@@ -47,13 +47,13 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаВыбора.Form" id="5d2616b6-4b09-4ece-be3a-8b64d33a6587.0" configVersion="dab2dd3efe101c4baa443059b0cc79d700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка" id="e0773234-0a0a-4f83-8844-b602c2a8bdae" configVersion="516d9797ee6bf544ba162283d684762d00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
-		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="5706887b220f144396fa7785a9bfbe1300000000"/>
-		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="a8b23b9ce9744544aedaf4ff35f5123d00000000"/>
+		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="6296d710bb36304786f18ca3085b222d00000000"/>
+		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="3a771e4fa26a77489409c8210d8b356f00000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль" id="384bda15-f5ff-4937-97f4-1d27261b3ddd" configVersion="a3daaf7c09f6d547afed6bff6fe0f30500000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль.Module" id="384bda15-f5ff-4937-97f4-1d27261b3ddd.0" configVersion="ee4b62ef89ee1d45bcd79176db19624200000000"/>
 		<Metadata name="CommonModule.ОбщийСерверныйМодуль" id="43ae913d-3638-460b-ba76-80bedd8fa780" configVersion="e8c3a679a197354f8f44cb670b046b3500000000"/>
 		<Metadata name="CommonModule.ОбщийСерверныйМодуль.Module" id="43ae913d-3638-460b-ba76-80bedd8fa780.0" configVersion="98300f257cc0a94bbafb3ed5e7143f1a00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="8dae11f3c9c3654ea4d2392c9787539d00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="5c4ce94bca27954187c32733310e9d6900000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="982799aa432e894b84098a44f413d31700000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
@@ -87,8 +87,8 @@
 			<Metadata name="InformationRegister.ПолученныеДостижения.Dimension.Достижение" id="85e80881-31f6-4005-ad5e-25ac353f39e7"/>
 			<Metadata name="InformationRegister.ПолученныеДостижения.Attribute.АдресВХ" id="ae587172-3911-4ede-af54-e0e61d936081"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаЗаписи" id="da5a9818-89d7-45d5-8a17-c331cb7e0a1d" configVersion="eb989cdefe2c3642a422f03e92854a2c00000000"/>
-		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаЗаписи.Form" id="da5a9818-89d7-45d5-8a17-c331cb7e0a1d.0" configVersion="55d2a51fdf7f6145937672c86ae4292300000000"/>
+		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаЗаписи" id="da5a9818-89d7-45d5-8a17-c331cb7e0a1d" configVersion="4a8db9a068e2f442a51e0247d0b9d50d00000000"/>
+		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаЗаписи.Form" id="da5a9818-89d7-45d5-8a17-c331cb7e0a1d.0" configVersion="07f8bbbaae27c245bafeee1f79457a9a00000000"/>
 		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаСписка" id="9d3405dd-f6fc-4b3f-b927-8d11e28fcf81" configVersion="5f4fd3f2fc86bf4592e624de51e112ef00000000"/>
 		<Metadata name="InformationRegister.ПолученныеДостижения.Form.ФормаСписка.Form" id="9d3405dd-f6fc-4b3f-b927-8d11e28fcf81.0" configVersion="7d4effba8395ab4e831acd07248c430100000000"/>
 		<Metadata name="InformationRegister.Файлы" id="cfb04a53-e261-4150-98c8-b3c5ef0837ff" configVersion="775fa3e9406381428fca4f273ec2dd3500000000">
