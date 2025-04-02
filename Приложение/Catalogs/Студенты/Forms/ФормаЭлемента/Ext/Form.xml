@@ -79,10 +79,13 @@
 			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="21"/>
 		</InputField>
 		<Table name="СписокДостижений" id="22">
+			<RowSelectionMode>Row</RowSelectionMode>
+			<VerticalScrollBar>UseAlways</VerticalScrollBar>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>СписокДостижений</DataPath>
 			<RowPictureDataPath>СписокДостижений.DefaultPicture</RowPictureDataPath>
+			<GroupVerticalAlign>Center</GroupVerticalAlign>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -127,7 +130,17 @@
 			<ChildItems>
 				<PictureField name="СписокДостиженийКартинка" id="38">
 					<DataPath>СписокДостижений.Картинка</DataPath>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<AutoCellHeight>true</AutoCellHeight>
+					<Width>10</Width>
+					<MaxWidth>20</MaxWidth>
+					<Height>4</Height>
+					<MaxHeight>20</MaxHeight>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
 					<PictureSize>Proportionally</PictureSize>
+					<ImageScale>50</ImageScale>
+					<Hyperlink>true</Hyperlink>
 					<ContextMenu name="СписокДостиженийКартинкаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="СписокДостиженийКартинкаРасширеннаяПодсказка" id="40"/>
 				</PictureField>
@@ -135,6 +148,11 @@
 					<DataPath>СписокДостижений.Достижение</DataPath>
 					<ContextMenu name="СписокДостиженийДостижениеКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="СписокДостиженийДостижениеРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<LabelField name="СписокДостиженийДостижениеУсловие" id="41">
+					<DataPath>СписокДостижений.Достижение.Условие</DataPath>
+					<ContextMenu name="СписокДостиженийДостижениеУсловиеКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СписокДостиженийДостижениеУсловиеРасширеннаяПодсказка" id="43"/>
 				</LabelField>
 			</ChildItems>
 		</Table>

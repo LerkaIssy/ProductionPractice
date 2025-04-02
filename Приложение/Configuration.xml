@@ -227,7 +227,7 @@
 			<AllowedIncomingShareRequestTypes/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Основной</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -245,6 +245,13 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>УчебнаяЧасть</Subsystem>
+			<Subsystem>БонуснаяСистема</Subsystem>
+			<Subsystem>РейтинговаяСистема</Subsystem>
+			<Style>Основной</Style>
+			<CommonPicture>Рейтинг</CommonPicture>
+			<CommonPicture>Бонусы</CommonPicture>
+			<CommonPicture>УчебнаяЧасть</CommonPicture>
 			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
 			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
 			<Constant>СтартовыйРейтинг</Constant>
