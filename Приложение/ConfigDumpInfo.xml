@@ -47,8 +47,8 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаВыбора.Form" id="5d2616b6-4b09-4ece-be3a-8b64d33a6587.0" configVersion="dab2dd3efe101c4baa443059b0cc79d700000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка" id="e0773234-0a0a-4f83-8844-b602c2a8bdae" configVersion="516d9797ee6bf544ba162283d684762d00000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="f74ca5f0ff2cf641872b1e343d070a0700000000"/>
-		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="f0927a6731986642b6db5f639825cda200000000"/>
-		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="a48b1206f2351443971fd779645d306700000000"/>
+		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="27ab20cc546bda4da02f368e31b09f1a00000000"/>
+		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="fd659f8131cee84c92322f6bc1b02ef500000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль" id="384bda15-f5ff-4937-97f4-1d27261b3ddd" configVersion="a3daaf7c09f6d547afed6bff6fe0f30500000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль.Module" id="384bda15-f5ff-4937-97f4-1d27261b3ddd.0" configVersion="ee4b62ef89ee1d45bcd79176db19624200000000"/>
 		<Metadata name="CommonModule.ОбщийСерверныйМодуль" id="43ae913d-3638-460b-ba76-80bedd8fa780" configVersion="e8c3a679a197354f8f44cb670b046b3500000000"/>
@@ -59,11 +59,14 @@
 		<Metadata name="CommonPicture.Рейтинг.Picture" id="c68db16d-70b4-4e0f-a6dd-22ef4d116eaa.0" configVersion="eb088ceffda3494b8a8fde8129b5ff2a00000000"/>
 		<Metadata name="CommonPicture.УчебнаяЧасть" id="5bb04c87-cefd-424e-9a8e-e6793a0892f6" configVersion="8021de6df554d84c90c07cd7427f62b000000000"/>
 		<Metadata name="CommonPicture.УчебнаяЧасть.Picture" id="5bb04c87-cefd-424e-9a8e-e6793a0892f6.0" configVersion="956a5ba7dcdfea45980882229b064bd600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="77bbb132ad09204292fbdab031c49b4f00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="39a72083-55f6-4554-bb36-593c59cbd669" configVersion="b2027b54bd629949bae18facfa572d3200000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.b" configVersion="d87b646fc287a947a51d0159a96efc6700000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.9" configVersion="982799aa432e894b84098a44f413d31700000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionPicture" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.c" configVersion="c97562d67dfea54593b5d57251685f0b00000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
+		<Metadata name="DataProcessor.Главная" id="d2df21b8-7605-43b1-a95f-9040f148fc33" configVersion="952e9278702f154cb8a4333812b4e77600000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="70e9dd9d3ba3d8468b00e6ea71efd53500000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="de48c70ea194034dbd61ab4d1d0d273d00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8c1e0d2445deb046a365c95fc2cfeac500000000">
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Рейтинг" id="21b67fe8-dfe2-4c30-9a3f-0b6fa0f56e67"/>
@@ -116,10 +119,15 @@
 		<Metadata name="Report.РейтингСтудентовОбщий" id="1f95f07e-4c17-49af-97df-8b22db57f384" configVersion="9419cae932587a4ba4de85f8e921581f00000000"/>
 		<Metadata name="Report.РейтингСтудентовОбщий.Template.ОсновнаяСхемаКомпоновкиДанных" id="08d7a99d-d2f3-4f23-b30d-5b25de779503" configVersion="b919c0b3ddf0c047a8a639142ed6895200000000"/>
 		<Metadata name="Report.РейтингСтудентовОбщий.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="08d7a99d-d2f3-4f23-b30d-5b25de779503.0" configVersion="b3b88533a096814382d661b6da7e323000000000"/>
+		<Metadata name="Report.ТопСтудентовПоРейтингу" id="ed85eefc-3b01-4da2-9a75-7c10e46c9310" configVersion="8d22be7063aec04ba97cf6630bc3b57100000000"/>
+		<Metadata name="Report.ТопСтудентовПоРейтингу.Form.ФормаОтчета" id="17548627-9482-4f7d-8b99-52933f04b3a6" configVersion="43e5b7ee5fb87b45a756aa5cd5651a4800000000"/>
+		<Metadata name="Report.ТопСтудентовПоРейтингу.Form.ФормаОтчета.Form" id="17548627-9482-4f7d-8b99-52933f04b3a6.0" configVersion="791449cf0f8be0418aba2198bb0429e200000000"/>
+		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0" configVersion="bf39c55fe4c0b04a8a12186b796c722a00000000"/>
+		<Metadata name="Report.ТопСтудентовПоРейтингу.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a1cc4b1b-36a8-4610-84bc-519b3c8942a0.0" configVersion="48d7b26ee17833439e8e5b594bb20e5c00000000"/>
 		<Metadata name="Style.Основной" id="19278507-1968-4742-ab4c-d2b9857d6bf3" configVersion="db37adf124bea14d8271b806410297ac00000000"/>
 		<Metadata name="Style.Основной.Style" id="19278507-1968-4742-ab4c-d2b9857d6bf3.0" configVersion="6f0ff555916ca542aca9b1e20bcd8afb00000000"/>
 		<Metadata name="Subsystem.БонуснаяСистема" id="d226510b-2b20-478e-a711-2883c6327d32" configVersion="14ef406bb1537c4c804dab1d07c7e55e00000000"/>
-		<Metadata name="Subsystem.РейтинговаяСистема" id="57b2cc66-705b-444f-ae88-0c661c02403b" configVersion="ce98bd5636877243adb516bd4e49321700000000"/>
+		<Metadata name="Subsystem.РейтинговаяСистема" id="57b2cc66-705b-444f-ae88-0c661c02403b" configVersion="c677b205a575f240b47e8f2b41cb0a0b00000000"/>
 		<Metadata name="Subsystem.УчебнаяЧасть" id="11cad883-9fb1-4881-aebe-8dbde07d315e" configVersion="dfa0bc2132d2714aab58764b53e5d86e00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

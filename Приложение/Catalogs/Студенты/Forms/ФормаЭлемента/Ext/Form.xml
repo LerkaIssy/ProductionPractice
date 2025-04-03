@@ -101,7 +101,9 @@
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокДостиженийКонтекстноеМеню" id="23"/>
-			<AutoCommandBar name="СписокДостиженийКоманднаяПанель" id="24"/>
+			<AutoCommandBar name="СписокДостиженийКоманднаяПанель" id="24">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
 			<ExtendedTooltip name="СписокДостиженийРасширеннаяПодсказка" id="25"/>
 			<SearchStringAddition name="СписокДостиженийСтрокаПоиска" id="26">
 				<AdditionSource>
@@ -130,17 +132,14 @@
 			<ChildItems>
 				<PictureField name="СписокДостиженийКартинка" id="38">
 					<DataPath>СписокДостижений.Картинка</DataPath>
+					<TitleLocation>None</TitleLocation>
 					<HorizontalAlign>Center</HorizontalAlign>
-					<AutoCellHeight>true</AutoCellHeight>
-					<Width>10</Width>
 					<MaxWidth>20</MaxWidth>
-					<Height>4</Height>
 					<MaxHeight>20</MaxHeight>
 					<HorizontalStretch>false</HorizontalStretch>
 					<VerticalStretch>false</VerticalStretch>
 					<PictureSize>Proportionally</PictureSize>
 					<ImageScale>50</ImageScale>
-					<Hyperlink>true</Hyperlink>
 					<ContextMenu name="СписокДостиженийКартинкаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="СписокДостиженийКартинкаРасширеннаяПодсказка" id="40"/>
 				</PictureField>
