@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.СтартИгры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПолученныеДостижения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиБонусов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РедкостьДостижений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

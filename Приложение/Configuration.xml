@@ -267,6 +267,7 @@
 			<Report>РейтингСтудентовОбщий</Report>
 			<Report>РейтингСтудентов</Report>
 			<Report>ТопСтудентовПоРейтингу</Report>
+			<Report>РедкостьДостижений</Report>
 			<DataProcessor>Главная</DataProcessor>
 			<InformationRegister>ПолученныеДостижения</InformationRegister>
 			<InformationRegister>Файлы</InformationRegister>
