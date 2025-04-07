@@ -71,8 +71,8 @@
 		<Metadata name="Configuration.Конфигурация.Splash" id="943f7e37-1f7e-4352-a6d0-82f6e2ab95a7.2" configVersion="3d92e838800f474592e107b8a233428f00000000"/>
 		<Metadata name="Constant.СтартовыйРейтинг" id="864bbb60-63f0-4d3e-b4cf-dff4e38fa273" configVersion="06fa17c179a3be41b7fbdfeaf2e6c08c00000000"/>
 		<Metadata name="DataProcessor.Главная" id="d2df21b8-7605-43b1-a95f-9040f148fc33" configVersion="952e9278702f154cb8a4333812b4e77600000000"/>
-		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="3b6e72bf5e50a0458464a51b9a8cec5900000000"/>
-		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="30bc46037e85ca49bfcfd2456daaf78200000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="5b281427ab4d1e4f9074528da138860f00000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="1516abec90e5614ba0e2c721fb49d41100000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="8458f96fba8adb48b4edd52eb224b6a500000000">
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Рейтинг" id="21b67fe8-dfe2-4c30-9a3f-0b6fa0f56e67"/>
