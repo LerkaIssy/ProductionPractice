@@ -44,5 +44,5 @@
     
 ## Авторы
 
-* **Батракова Валерия** - *главный разработчик* - [Lera_Batrakova](https://github.com/LerkaIssy)
+* **Батракова Валерия** - *главный разработчик* - [LerkaIssy](https://github.com/LerkaIssy)
 
