@@ -417,7 +417,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Получено достижений: </v8:content>
+											<v8:content>Число студентов, получивших достижения: </v8:content>
 										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
