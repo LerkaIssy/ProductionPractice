@@ -248,12 +248,15 @@
 			<Subsystem>УчебнаяЧасть</Subsystem>
 			<Subsystem>БонуснаяСистема</Subsystem>
 			<Subsystem>РейтинговаяСистема</Subsystem>
+			<Subsystem>Telegram</Subsystem>
 			<Style>Основной</Style>
 			<CommonPicture>Рейтинг</CommonPicture>
 			<CommonPicture>Бонусы</CommonPicture>
 			<CommonPicture>УчебнаяЧасть</CommonPicture>
+			<CommonPicture>Telegram</CommonPicture>
 			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
 			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
+			<CommonModule>Telegram_Сервер</CommonModule>
 			<Constant>СтартовыйРейтинг</Constant>
 			<Catalog>Студенты</Catalog>
 			<Catalog>Группы</Catalog>
@@ -264,13 +267,18 @@
 			<Document>СтартИгры</Document>
 			<Document>НачислениеРейтинга</Document>
 			<Document>СписаниеРейтинга</Document>
+			<Enum>Telegram_ВидСообщения</Enum>
 			<Report>РейтингСтудентовОбщий</Report>
 			<Report>РейтингСтудентов</Report>
 			<Report>ТопСтудентовПоРейтингу</Report>
 			<Report>РедкостьДостижений</Report>
 			<DataProcessor>Главная</DataProcessor>
+			<DataProcessor>Telegram_ОбработкаОтладки</DataProcessor>
 			<InformationRegister>ПолученныеДостижения</InformationRegister>
 			<InformationRegister>Файлы</InformationRegister>
+			<InformationRegister>Telegram_Настройки</InformationRegister>
+			<InformationRegister>Telegram_Пользователи</InformationRegister>
+			<InformationRegister>Telegram_ИсторияСообщений</InformationRegister>
 			<AccumulationRegister>ОстаткиБонусов</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРейтинга</AccumulationRegister>
 		</ChildObjects>

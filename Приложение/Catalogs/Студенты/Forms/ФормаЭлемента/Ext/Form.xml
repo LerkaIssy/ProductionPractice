@@ -59,6 +59,12 @@
 				<Event name="OnChange">ОтчествоПриИзменении</Event>
 			</Events>
 		</InputField>
+		<InputField name="Телефон" id="44">
+			<DataPath>Объект.Телефон</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="46"/>
+		</InputField>
 		<InputField name="ДатаРождения" id="16">
 			<DataPath>Объект.ДатаРождения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
