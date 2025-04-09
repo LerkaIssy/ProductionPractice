@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Telegram_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Telegram_Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Telegram_ИсторияСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8409b615-eecb-4b88-95a8-b1dbeeebe7b7</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

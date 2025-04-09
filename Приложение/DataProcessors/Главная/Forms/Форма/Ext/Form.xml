@@ -47,6 +47,16 @@
 					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
 					<ExtendedTooltip name="ДостиженияРасширеннаяПодсказка" id="66"/>
 				</Button>
+				<Button name="Telegram" id="108">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Telegram</CommandName>
+					<BackColor>style:AuxiliaryNavigationColor</BackColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="TelegramРасширеннаяПодсказка" id="109"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="СтраницыДашборда" id="1">
@@ -406,6 +416,12 @@
 										</Button>
 										<LabelField name="АктуальностьДанных1" id="94">
 											<DataPath>АктуальностьДанных</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Данные актуальны на</v8:content>
+												</v8:item>
+											</Title>
 											<ContextMenu name="АктуальностьДанных1КонтекстноеМеню" id="95"/>
 											<ExtendedTooltip name="АктуальностьДанных1РасширеннаяПодсказка" id="96"/>
 										</LabelField>
@@ -460,6 +476,54 @@
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПраваяГруппа2СтрРасширеннаяПодсказка" id="98"/>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ТретьяСтраница" id="104">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Третья страница</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Третья страница</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ТретьяСтраницаРасширеннаяПодсказка" id="105"/>
+					<ChildItems>
+						<UsualGroup name="ЛеваяГруппа3Стр" id="106">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа3 стр</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа3 стр</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛеваяГруппа3СтрРасширеннаяПодсказка" id="107"/>
+							<ChildItems>
+								<Button name="ЗапуститьБота" id="110">
+									<Type>UsualButton</Type>
+									<Width>25</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.ЗапуститьБота</CommandName>
+									<TextColor>style:FormTextColor</TextColor>
+									<BackColor>style:ButtonBackColor</BackColor>
+									<BorderColor>style:AccentColor</BorderColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+									<ExtendedTooltip name="ЗапуститьБотаРасширеннаяПодсказка" id="111"/>
+								</Button>
+							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
 				</Page>
@@ -687,6 +751,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьДанныеДостижения</Action>
+		</Command>
+		<Command name="Telegram" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Telegram</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Telegram</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Telegram</Action>
+		</Command>
+		<Command name="ЗапуститьБота" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьБота</Action>
 		</Command>
 	</Commands>
 </Form>
