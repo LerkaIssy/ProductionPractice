@@ -257,12 +257,14 @@
 			<CommonModule>ОбщийСерверныйМодуль</CommonModule>
 			<CommonModule>ОбщийКлиентскийМодуль</CommonModule>
 			<CommonModule>Telegram_Сервер</CommonModule>
+			<ScheduledJob>ЗапускБотов</ScheduledJob>
 			<Constant>СтартовыйРейтинг</Constant>
 			<Catalog>Студенты</Catalog>
 			<Catalog>Группы</Catalog>
 			<Catalog>Достижения</Catalog>
 			<Catalog>Магазин</Catalog>
 			<Catalog>ПовышениеРейтинга</Catalog>
+			<Catalog>КомандыTelegram</Catalog>
 			<Document>ПокупкаЗаБонусы</Document>
 			<Document>СтартИгры</Document>
 			<Document>НачислениеРейтинга</Document>
