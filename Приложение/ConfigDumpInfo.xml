@@ -57,8 +57,8 @@
 		<Metadata name="Catalog.Студенты.Form.ФормаСписка.Form" id="e0773234-0a0a-4f83-8844-b602c2a8bdae.0" configVersion="c856d9d5e370e747a88b42d7a6a5e40300000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента" id="55776fb8-5d79-48e0-879f-ed860b888a57" configVersion="98f560f22c33d14e85922988877c019000000000"/>
 		<Metadata name="Catalog.Студенты.Form.ФормаЭлемента.Form" id="55776fb8-5d79-48e0-879f-ed860b888a57.0" configVersion="19be5591396a8048993b2c1454d01a7000000000"/>
-		<Metadata name="CommonModule.Telegram_Сервер" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee" configVersion="38f4f648d24bd14982dcfa078232a18000000000"/>
-		<Metadata name="CommonModule.Telegram_Сервер.Module" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee.0" configVersion="e1c7c6d182e81345bbeac6863ae03cf200000000"/>
+		<Metadata name="CommonModule.Telegram_Сервер" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee" configVersion="b2cdc276c9189e419a5f5f70e2e1da3e00000000"/>
+		<Metadata name="CommonModule.Telegram_Сервер.Module" id="c73bf6a5-30ce-4e73-a932-de4ac35e43ee.0" configVersion="4692e0d2eed2e84f8a7fb92405ca942a00000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль" id="384bda15-f5ff-4937-97f4-1d27261b3ddd" configVersion="4b09a9a0a58d224b820bf3bb41a1157500000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентскийМодуль.Module" id="384bda15-f5ff-4937-97f4-1d27261b3ddd.0" configVersion="4a74c36a2c46da4f8946853ce2855bcf00000000"/>
 		<Metadata name="CommonModule.ОбщийСерверныйМодуль" id="43ae913d-3638-460b-ba76-80bedd8fa780" configVersion="4c7c1ac8b034f54db16c5af2cd3cd67e00000000"/>
@@ -81,13 +81,13 @@
 		<Metadata name="DataProcessor.Telegram_ОбработкаОтладки" id="bb991f2e-a9ee-4c46-9099-2df563f07ff6" configVersion="cefd2c6496f1d0459ec9213f5f319f6b00000000"/>
 		<Metadata name="DataProcessor.Telegram_ОбработкаОтладки.Form.Форма" id="3c3c9956-110a-4307-b51f-79612505b8bb" configVersion="c67567994906c245830397c5f8ef343100000000"/>
 		<Metadata name="DataProcessor.Telegram_ОбработкаОтладки.Form.Форма.Form" id="3c3c9956-110a-4307-b51f-79612505b8bb.0" configVersion="c8c98a9aad36ae49b3cf39f63c01127100000000"/>
-		<Metadata name="DataProcessor.Главная" id="d2df21b8-7605-43b1-a95f-9040f148fc33" configVersion="7662e4b66126b340997e9158160c7c9200000000">
+		<Metadata name="DataProcessor.Главная" id="d2df21b8-7605-43b1-a95f-9040f148fc33" configVersion="61e056c3ab500e48b6b526f184978f7900000000">
 			<Metadata name="DataProcessor.Главная.Attribute.Студент" id="2d91dfd0-00ea-4a1b-8a13-09fc03fdb0ad"/>
 			<Metadata name="DataProcessor.Главная.Attribute.Группа" id="3645b852-4970-4096-8cf0-0aaffed99d4c"/>
 		</Metadata>
-		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="c6e75e39e6c46e40aae8eea88d2e4ad100000000"/>
-		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="f25ded3a1b327b4585092144a4d616ba00000000"/>
-		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="07ddecb9c615e54aaae21bf5422d50fc00000000">
+		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="6467599c4bf8fb459de08b8e4d9b420d00000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="24eb1cd302f11340ab67b680a6cba97b00000000"/>
+		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="d69caa9ccb12be478408b220ba5aaf6d00000000">
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Рейтинг" id="21b67fe8-dfe2-4c30-9a3f-0b6fa0f56e67"/>
 			<Metadata name="Document.НачислениеРейтинга.Attribute.ПричинаПовышенияРейтинга" id="5adf2def-64b3-4a9a-8b62-0d83d5ff686a"/>
