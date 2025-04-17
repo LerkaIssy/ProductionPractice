@@ -523,7 +523,6 @@
 								</Button>
 								<Button name="СправочникКомандыTelegramСоздать" id="112">
 									<Type>Hyperlink</Type>
-									<Height>2</Height>
 									<CommandName>Catalog.КомандыTelegram.StandardCommand.Create</CommandName>
 									<TextColor>style:AccentColor</TextColor>
 									<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
@@ -534,6 +533,24 @@
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СправочникКомандыTelegramСоздатьРасширеннаяПодсказка" id="113"/>
+								</Button>
+								<Button name="РегистрСведенийTelegram_ИсторияСообщенийОткрытьСписок" id="151">
+									<Type>Hyperlink</Type>
+									<CommandName>InformationRegister.Telegram_ИсторияСообщений.StandardCommand.OpenList</CommandName>
+									<TextColor>style:AccentColor</TextColor>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>История сообщений</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РегистрСведенийTelegram_ИсторияСообщенийОткрытьСписокРасширеннаяПодсказка" id="152"/>
+								</Button>
+								<Button name="РегистрСведенийTelegram_ПользователиОткрытьСписок" id="153">
+									<Type>Hyperlink</Type>
+									<CommandName>InformationRegister.Telegram_Пользователи.StandardCommand.OpenList</CommandName>
+									<TextColor>style:AccentColor</TextColor>
+									<ExtendedTooltip name="РегистрСведенийTelegram_ПользователиОткрытьСписокРасширеннаяПодсказка" id="154"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>

@@ -85,8 +85,8 @@
 			<Metadata name="DataProcessor.Главная.Attribute.Студент" id="2d91dfd0-00ea-4a1b-8a13-09fc03fdb0ad"/>
 			<Metadata name="DataProcessor.Главная.Attribute.Группа" id="3645b852-4970-4096-8cf0-0aaffed99d4c"/>
 		</Metadata>
-		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="6467599c4bf8fb459de08b8e4d9b420d00000000"/>
-		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="24eb1cd302f11340ab67b680a6cba97b00000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7" configVersion="6e29e798eeb5814990cdafb6d570cc5100000000"/>
+		<Metadata name="DataProcessor.Главная.Form.Форма.Form" id="99191571-ccbb-48d3-b0de-df9bfeaa3bc7.0" configVersion="31bfc732d075f143988fe23546d3807e00000000"/>
 		<Metadata name="Document.НачислениеРейтинга" id="64426f30-ae49-40e0-986a-1c2ea3158862" configVersion="d69caa9ccb12be478408b220ba5aaf6d00000000">
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Группа" id="0bf4ae7f-15a7-45e9-a06c-d5b7ee6532b4"/>
 			<Metadata name="Document.НачислениеРейтинга.Attribute.Рейтинг" id="21b67fe8-dfe2-4c30-9a3f-0b6fa0f56e67"/>
